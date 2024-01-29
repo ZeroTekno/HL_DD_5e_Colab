@@ -67,7 +67,7 @@
   <thing id="c5CWlkRdSl" name="Radiant Soul" description="Beginning at 6th level, your link to the Celestial gives you the ability to serve as a holy conduit. You gain resistance to radiant damage, and add your Charisma modifier to any spell that deals Radiant or Fire damage against one target of your choice." compset="ClSpecial">
     <usesource source="5eWlkUACP"/>
     </thing>
-  <thing id="c5CWlkClRs" name="Celestial Resilience" description="Upon reaching 10th level, you gain tempory hit points whenever you finsih a short or long rest. These temp HP are equal to your warlock level + your Charisma modifer. In addition, you may choose up to five creatures that you can see at the end of the rest, each gaining temp HP equal to 1/2 your warlock level + your Charisma modifier." compset="ClSpecial">
+  <thing id="c5CWlkClRs" name="Celestial Resilience" description="Upon reaching 10th level, you gain temporary hit points whenever you finish a short or long rest. These temp HP are equal to your warlock level + your Charisma modifier. In addition, you may choose up to five creatures that you can see at the end of the rest, each gaining temp HP equal to 1/2 your warlock level + your Charisma modifier." compset="ClSpecial">
     <usesource source="5eWlkUACP"/>
     <eval phase="PostAttr" priority="15000">herofield[tBonusHP].value += #attrmod[aCHA] + #levelcount[Warlock]</eval>
     </thing>
@@ -81,7 +81,7 @@
     <tag group="Helper" tag="Tertiary"/>
     <exprreq message="Prerequisite: Pact of the Tome feature"><![CDATA[#hasability[cWlkPacTom] <> 0]]></exprreq>
     </thing>
-  <thing id="c5CWlkInCk" name="Cloak of Flies" description="As a bonus action, you can conjure an aura that looks like buzzing flies around you. The aura includes your space and extends in a 5ft  sphere, and is blocked by total cover. Lasting until you are incapacitated or you dismiss it with a bonus action.\n\nThe arua grants you advantage on Charisma (Intimidation) checks but disadvantage on all other Charisma checks. In addition, a creature that starts its turn within 5 feet of you takes poison damage equal to your Charisma modifier. \n\nYou may only use this once per short or long rest." compset="CustomSpec" uniqueness="unique">
+  <thing id="c5CWlkInCk" name="Cloak of Flies" description="As a bonus action, you can conjure an aura that looks like buzzing flies around you. The aura includes your space and extends in a 5ft  sphere, and is blocked by total cover. Lasting until you are incapacitated or you dismiss it with a bonus action.\n\nThe aura grants you advantage on Charisma (Intimidation) checks but disadvantage on all other Charisma checks. In addition, a creature that starts its turn within 5 feet of you takes poison damage equal to your Charisma modifier. \n\nYou may only use this once per short or long rest." compset="CustomSpec" uniqueness="unique">
     <usesource source="5eWlkUACP"/>
     <tag group="abCategory" tag="WlkEldInvo"/>
     <tag group="SpecSource" tag="cHelpWlk"/>
@@ -105,7 +105,7 @@
     <tag group="Helper" tag="Tertiary"/>
     <exprreq message="Prerequisite: 7th level"><![CDATA[#levelcount[Warlock] >= 7]]></exprreq>
     </thing>
-  <thing id="c5CWlkGft" name="Gift of the Depths" description="You gain the ability to breath underwater, and a swiming speed equal to your walking speed. \n\nAdditionally you may cast water breathing without expending a spell slot. You may only cast this invocation once per long rest." compset="CustomSpec" uniqueness="unique">
+  <thing id="c5CWlkGft" name="Gift of the Depths" description="You gain the ability to breath underwater, and a swimming speed equal to your walking speed. \n\nAdditionally you may cast water breathing without expending a spell slot. You may only cast this invocation once per long rest." compset="CustomSpec" uniqueness="unique">
     <usesource source="5eWlkUACP"/>
     <tag group="abCategory" tag="WlkEldInvo"/>
     <tag group="SpecSource" tag="cHelpWlk"/>
@@ -178,7 +178,7 @@
     <tag group="Usage" tag="ShortRest"/>
     <exprreq message="Prerequisist: 5th level"><![CDATA[#levelcount[Warlock] >= 5]]></exprreq>
     </thing>
-  <thing id="c5CWlkTrks" name="Trickster&apos;s Escape" description="You may cast freedom of movement once on yourself without expending a spell slot. You may only do this once per long rest." compset="CustomSpec" uniqueness="unique">
+  <thing id="c5CWlkTrks" name="Trickster&apos;s Escape" description="You may cast Freedom of Movement once on yourself without expending a spell slot. You may only do this once per long rest." compset="CustomSpec" uniqueness="unique">
     <usesource source="5eWlkUACP"/>
     <tag group="SpecSource" tag="cHelpWlk"/>
     <tag group="abCategory" tag="WlkEldInvo"/>
