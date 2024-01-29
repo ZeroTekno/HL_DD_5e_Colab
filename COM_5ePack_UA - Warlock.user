@@ -178,7 +178,7 @@
     <tag group="Usage" tag="ShortRest"/>
     <exprreq message="Prerequisist: 5th level"><![CDATA[#levelcount[Warlock] >= 5]]></exprreq>
     </thing>
-  <thing id="c5CWlkTrks" name="Trickster&apos;s Escape" description="You may cast Freedom of Movement once on yourself without expending a spell slot. You may only do this once per long rest." compset="CustomSpec" uniqueness="unique">
+  <thing id="c5CWlkTrks" name="Trickster&apos;s Escape" description="You may cast {i}freedom of movement{/i} once on yourself without expending a spell slot. You may only do this once per long rest." compset="CustomSpec" uniqueness="unique">
     <usesource source="5eWlkUACP"/>
     <tag group="SpecSource" tag="cHelpWlk"/>
     <tag group="abCategory" tag="WlkEldInvo"/>
