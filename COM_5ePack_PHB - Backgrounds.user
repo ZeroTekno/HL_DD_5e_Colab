@@ -2395,13 +2395,13 @@
     <tag group="Background" tag="bck5CSCClS"/>
     <tag group="ProductId" tag="Wizards"/>
     </thing>
-  <thing id="bt5CLibra" name="Libraries" description="I have visited the greatest libraries in the land and read every book upon their shelves... at least that&apos;s what i boast." compset="BackPerTrt" uniqueness="unique">
+  <thing id="bt5CLibra" name="Libraries" description="I have visited the greatest libraries in the land and read every book upon their shelves... at least, that&apos;s what I boast." compset="BackPerTrt" uniqueness="unique">
     <tag group="Roll" tag="2"/>
     <tag group="Background" tag="bck5CSage"/>
     <tag group="Background" tag="bck5CSCClS"/>
     <tag group="ProductId" tag="Wizards"/>
     </thing>
-  <thing id="bt5CExpla" name="Explain" description="I am patient when explaining things to those less knowledgable than myself" compset="BackPerTrt" uniqueness="unique">
+  <thing id="bt5CExpla" name="Explain" description="I am patient when explaining things to those less knowledgable than myself." compset="BackPerTrt" uniqueness="unique">
     <tag group="Roll" tag="3"/>
     <tag group="Background" tag="bck5CSage"/>
     <tag group="Background" tag="bck5CSCClS"/>
@@ -2455,7 +2455,7 @@
     <tag group="Roll" tag="3"/>
     <tag group="ProductId" tag="Wizards"/>
     </thing>
-  <thing id="bt5CNoLmt" name="No Limits" description="The infinite possibility inherent in all existance should be restrained by nothing." compset="BackIdeal" uniqueness="unique">
+  <thing id="bt5CNoLmt" name="No Limits" description="The infinite possibility inherent in all existance should be restrained by nothing. (Chaotic)" compset="BackIdeal" uniqueness="unique">
     <tag group="Background" tag="bck5CSage"/>
     <tag group="Background" tag="bck5CSCClS"/>
     <tag group="Roll" tag="4"/>
@@ -2497,7 +2497,7 @@
     <tag group="Roll" tag="4"/>
     <tag group="ProductId" tag="Wizards"/>
     </thing>
-  <thing id="bt5CSQues" name="Question" description="A single question has become an obsession for me and I am determined to discover its answer" compset="BackBond" uniqueness="unique">
+  <thing id="bt5CSQues" name="Question" description="A single question has become an obsession for me and I am determined to discover its answer." compset="BackBond" uniqueness="unique">
     <tag group="Background" tag="bck5CSage"/>
     <tag group="Background" tag="bck5CSCClS"/>
     <tag group="Roll" tag="5"/>
